@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b3bcac6a583e1c0dda2162ca5de9ff3a",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "sanjeevaasoori/error-reporting",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sanjeevaasoori/ErrorReporting.git",
+                "reference": "7e3eb467b3701f1583676ba8010fc5e4fb365b61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sanjeevaasoori/ErrorReporting/zipball/7e3eb467b3701f1583676ba8010fc5e4fb365b61",
+                "reference": "7e3eb467b3701f1583676ba8010fc5e4fb365b61",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sanjeev\\Custom\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "sanjeevaasoori",
+                    "email": "sanjeev.a.rangaswamy@gmail.com"
+                }
+            ],
+            "description": "A simple PHP error reporting class",
+            "support": {
+                "issues": "https://github.com/sanjeevaasoori/ErrorReporting/issues",
+                "source": "https://github.com/sanjeevaasoori/ErrorReporting/tree/1.0"
+            },
+            "time": "2021-11-09T09:46:36+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
