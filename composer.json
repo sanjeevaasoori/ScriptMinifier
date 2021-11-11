@@ -2,20 +2,21 @@
     "name": "sanjeevaasoori/script-minifier",
     "description": "PHP library to minify Javascripts",
     "type": "library",
-    "require-dev": {
-        "sanjeevaasoori/error-reporting": "^1.0"
-    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Sanjeevaasoori\\ScriptMinifier\\": "src/"
+            "Sanjeev\\Custom\\": "src/"
         }
     },
+    "version":"1.0",
     "authors": [
         {
             "name": "sanjeevaasoori",
             "email": "sanjeev.a.rangaswamy@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.0.0",
+        "sanjeevaasoori/error-reporting": "^1.0"
+    }
 }

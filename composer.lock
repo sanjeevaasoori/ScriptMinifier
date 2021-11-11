@@ -4,9 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3bcac6a583e1c0dda2162ca5de9ff3a",
-    "packages": [],
-    "packages-dev": [
+    "content-hash": "fa733cfe84991b4a55186d6b06f7af45",
+    "packages": [
         {
             "name": "sanjeevaasoori/error-reporting",
             "version": "1.0",
@@ -48,12 +47,15 @@
             "time": "2021-11-09T09:46:36+00:00"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=8.0.0"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
 }
