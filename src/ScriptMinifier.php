@@ -4,7 +4,7 @@ namespace Sanjeev\Custom;
 
 class ScriptMinifier
 {
-    public function __construct()
+    private function __construct()
     {
     }
     protected mixed $input, $content = [], $locks = [], $output = "";
